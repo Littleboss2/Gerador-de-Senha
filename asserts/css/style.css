@@ -16,6 +16,12 @@ body {
   background-color: #f7f7f7;
 }
 
+.title{
+    text-align: center;
+    font-size: 28px;
+    color: #313131;;
+}
+
 main {
   padding: 20px;
   box-shadow: 0 1px 10px #ccc;
@@ -33,8 +39,8 @@ main > div {
 input {
   padding: 5px;
   outline: none;
-  accent-color: blueviolet;
-  border-color: blueviolet;
+  accent-color: rgb(92, 48, 48);
+  border-color: #DFDFDF;
 }
 
 input[type=checkbox] {
@@ -47,7 +53,7 @@ input[type=range] {
 }
 
 button {
-  background-color: blueviolet;
+  background-color: #3eb72bc5;
   cursor: pointer;
   color: white;
   border: none;

@@ -56,3 +56,8 @@ const generatePassword = (
 
   passInput.value = password;
 };
+
+btnGerar.addEventListener('click', ()=> {
+    passInput.select();
+    document.execCommand('copy');
+});
